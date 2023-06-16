@@ -14,7 +14,7 @@ function Header() {
       <div className="flex items-center space-x-5">
         <DarkModeSwitch />
         <Link href="/">
-          <span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-4 sm:mr-1">IMDb</span>
+          <span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-4 sm:mr-2">IMDb</span>
           <span className="text-base hidden sm:inline mr-4">Clone</span>
         </Link>
       </div>
