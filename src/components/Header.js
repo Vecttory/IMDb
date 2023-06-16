@@ -12,8 +12,8 @@ function Header() {
       </div>
       <div className="">
         <Link href="/">
-          <span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1">IMDb</span>
-          <span className="text-xl hidden sm:inline">Clone</span>
+          <span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-4 sm:mr-1">IMDb</span>
+          <span className="text-base hidden sm:inline mr-4">Clone</span>
         </Link>
       </div>
     </div>
