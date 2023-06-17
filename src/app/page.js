@@ -14,6 +14,7 @@ const page = async ({ searchParams }) => {
   if (!response.ok) {
     throw new Error('Failed to fetch API');
   }
+
   const data = await response.json();
 
   const { results } = data;
