@@ -14,7 +14,7 @@ function Card({ result }) {
           className="w-full sm:rounded-t-lg dark:group-hover:opacity-70 group-hover:opacity-80 transition-opacity duration-200"
           placeholder="blur"
           style={{ maxWidth: '100%', height: 'auto' }}
-          blurDataURL="spinner.svg"
+          blurDataURL="/spinner.svg"
           alt="Image is not available"
         />
         <div className="p-2">
