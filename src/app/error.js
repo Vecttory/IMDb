@@ -1,11 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
-
-function Error({ error, reset }) {
-  useEffect(() => {
-    console.log(error);
-  }, [error]);
+function Error({ reset }) {
   return (
     <div className="text-center mt-10">
       <h2>Something went wrong</h2>
