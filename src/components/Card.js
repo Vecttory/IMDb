@@ -11,7 +11,7 @@ function Card({ result }) {
           src={`https://image.tmdb.org/t/p/original/${result.backdrop_path || result.poster_path}`}
           width={500}
           height={300}
-          className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
+          className="w-full sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
           placeholder="blur"
           style={{ maxWidth: '100%', height: 'auto' }}
           blurDataURL="spinner.svg"
