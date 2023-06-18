@@ -1,5 +1,7 @@
 import Results from '../components/Results';
 
+export const dynamic = 'force-dynamic';
+
 const { API_KEY } = process.env;
 
 const page = async ({ searchParams }) => {
